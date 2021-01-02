@@ -70,6 +70,7 @@ const ProductScreen = ({ match }) => {
 
               <ListGroup.Item>
                 <Button className='btn-block' 
+                variant='outline-danger'
                 type='button'
                 disabled={product.countInStock === 0}>
                   Add To Cart

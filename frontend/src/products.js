@@ -53,7 +53,7 @@ const products = [
   },
   {
     _id: '5',
-    name: 'BadA** Stroller',
+    name: 'BadA$$ Stroller',
     image: '/images/stroller.jpg',
     description:
       'Aint nobody messing with this baby.',

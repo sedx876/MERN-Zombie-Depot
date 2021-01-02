@@ -1,24 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Neucha&display=swap');
+
 main{
   min-height: 80vh;
 }
 
-/* .ml-auto{
-  background-color: #A51010;
-} */
-
-header{
-  background-color: crimson;
-  background-color: #A51010;
-}
-
 h3{
   padding: 1rem 0;
+  color: #7ab227;
 }
+
+
 
 .rating span {
   margin: 0.1rem;
 }
 
-#root > header > nav{
-  background-color: crimson;
+.zom{
+  width: 25px;
+  height: 25px;
+  padding: 2px;
+  margin-bottom: 5px;
+}
+
+.head{
+  padding: 1rem 0;
+  color: #7ab227;
+  /* font-family: 'Neucha', cursive; */
+  font-family: 'Fredericka the Great', cursive;
+  text-align: center;
+}
+
+.zombmart{
+  color: #7ab227;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+#root > header > nav > div > a{
+  color: #7ab227;
 }
