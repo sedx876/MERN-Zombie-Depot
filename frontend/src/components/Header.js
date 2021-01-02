@@ -2,10 +2,10 @@ import React from 'react'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Navbar, Nav, Container } from 'react-bootstrap'
 
-const Header = () => {
+const Header = ({backgroundColor}) => {
   return (
     <header>
-      <Navbar className='nav' bg="dark" variant='dark' expand="lg" collapseOnSelect>
+      <Navbar style={{backgroundColor}} className='nav' bg="danger" variant='dark' expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand>ZombMart</Navbar.Brand>
@@ -27,6 +27,11 @@ const Header = () => {
       </Navbar>
     </header>
   )
+
+}
+
+Header.defaultProps = {
+  backgroundColor: '#A51010'
 }
 
 export default Header

@@ -2,8 +2,13 @@ main{
   min-height: 80vh;
 }
 
-.nav{
-  color: #A51010;
+/* .ml-auto{
+  background-color: #A51010;
+} */
+
+header{
+  background-color: crimson;
+  background-color: #A51010;
 }
 
 h3{
@@ -12,4 +17,8 @@ h3{
 
 .rating span {
   margin: 0.1rem;
+}
+
+#root > header > nav{
+  background-color: crimson;
 }
