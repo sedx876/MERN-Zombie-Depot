@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '1',
     name: 'Kids Safety Cage',
     image: '/images/barbcage.jpg',
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '2',
     name: 'Chainsaw Katana',
     image: '/images/chainsawkatana.jpg',
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: '3',
     name: 'Kids Starter Saw',
     image: '/images/kidsaw.jpg',
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
     name: 'Nokia Hammer',
     image: '/images/nokiahammer.jpg',
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '5',
     name: 'BadA** Stroller',
     image: '/images/stroller.jpg',
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: '6',
     name: 'Zombie Repellant Soap',
     image: '/images/zomsoap.jpg',
     description:
