@@ -111,4 +111,4 @@ const CartScreen = ({ match, location, history }) => {
   )
 }
 
-export default 
+export default CartScreen
