@@ -80,3 +80,7 @@ h1 {
     font-size: 2.5vw;
   }
 }
+
+.bg-dark{
+  background-color: #7ab227;
+}
