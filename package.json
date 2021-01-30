@@ -24,6 +24,7 @@
   "homepage": "https://github.com/sedx876/MERN-Zombie-Depot#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "chalk": "^4.1.0",
     "colors": "^1.4.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",

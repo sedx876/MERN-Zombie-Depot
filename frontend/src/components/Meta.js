@@ -12,9 +12,9 @@ const Meta = ({ title, description, keywords }) => {
 }
 
 Meta.defaultProps = {
-  title: 'ZombShop',
-  description: 'We sell the best products for cheap',
-  keywords: 'electronics, buy electronics, cheap electroincs',
+  title: 'ZombMart',
+  description: 'We have all the Zombie Apocalypse supplies you will ever need.',
+  keywords: 'zombie, weapons, supplies, shop, apocalypse',
 }
 
 export default Meta
