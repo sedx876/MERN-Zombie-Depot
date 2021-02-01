@@ -26,6 +26,10 @@ const HomeScreen = ({ match }) => {
 
   return (
     <>
+      <h1 className='zombmart text-center' 
+        variant='zombie'>Welcome to ZombMart</h1>
+      <h4 className='zombmart text-center' 
+        variant='zombie'>For All Your Zombie Slaying Needs</h4>
       <Meta />
       {!keyword ? (
         <ProductCarousel />
@@ -34,7 +38,8 @@ const HomeScreen = ({ match }) => {
           Go Back
         </Link>
       )}
-      <h1>Latest Products</h1>
+      <h1 className='zombmart text-center' 
+        variant='zombie'>Latest Products</h1>
       {loading ? (
         <Loader />
       ) : error ? (
